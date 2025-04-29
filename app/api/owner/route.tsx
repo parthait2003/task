@@ -1,4 +1,4 @@
-import Owner from "@/models/Owner"; // Adjust the import path based on your project structure
+import Owner from "@/models/owner"; // Adjust the import path based on your project structure
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 import crypto from "crypto";
