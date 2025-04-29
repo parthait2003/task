@@ -1,4 +1,4 @@
-import Project from "@/models/Project"; // Adjust the import path based on your project structure
+import Project from "@/models/project"; // Adjust the import path based on your project structure
 import connectMongoDB from "@/config/database"; // Your db connect function
 import { NextResponse } from "next/server";
 
