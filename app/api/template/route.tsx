@@ -1,4 +1,4 @@
-import Template from "@/models/Template"; // Adjust the import path based on your project structure
+import Template from "@/models/template"; // Adjust the import path based on your project structure
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 
