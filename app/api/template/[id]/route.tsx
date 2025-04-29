@@ -1,4 +1,4 @@
-import Template from "@/models/Template";
+import Template from "@/models/template";
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 
