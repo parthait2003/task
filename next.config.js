@@ -3,15 +3,13 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     eslint: {
-        ignoreDuringBuilds: true,
+        ignoreDuringBuilds: true,       // ✅ Ignores ESLint errors during `next build`
     },
     typescript: {
-        ignoreBuildErrors: true,
+        ignoreBuildErrors: true,        // ✅ Ignores TypeScript type errors during `next build`
     },
     webpack: (config) => {
-        // Disable Webpack cache for troubleshooting serialization warnings
-        config.cache = false;
-
+        config.cache = false;           // ✅ Disables Webpack caching (for clean builds)
         return config;
     },
 };
