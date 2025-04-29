@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
 
-    // Changed this to point to root-level folders like components/
+    // ✅ Base is project root; alias maps to root-level folders like models/
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
