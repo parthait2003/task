@@ -1,4 +1,4 @@
-import Client from "@/models/Client";
+import Client from "@/models/client";
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 
