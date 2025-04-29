@@ -1,4 +1,4 @@
-import Project from "@/models/Project";
+import Project from "@/models/project";
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 
