@@ -1,4 +1,4 @@
-import Owner from "@/models/Owner";
+import Owner from "@/models/owner";
 import connectMongoDB from "@/config/database";
 import { NextResponse } from "next/server";
 import crypto from "crypto"; // Import crypto for hashing
