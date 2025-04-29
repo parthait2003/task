@@ -15,10 +15,10 @@
     "jsx": "preserve",
     "incremental": true,
 
-    // This is the key part:
+    // Changed this to point to root-level folders like components/
     "baseUrl": ".",
     "paths": {
-      "@/*": ["app/*"]
+      "@/*": ["./*"]
     },
 
     "plugins": [
